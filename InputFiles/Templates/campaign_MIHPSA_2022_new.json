@@ -2778,8 +2778,7 @@
             },
             "Start_Year": 2008,
             "class": "CampaignEvent"
-        },
-        {
+        },{
             "BEGIN": "PREP Background",
             "Event_Coordinator_Config": {
                 "Distributions": [
@@ -3000,37 +2999,126 @@
                         ],
                         "Target_Disease_State_Has_Intervention_Name": "PrEP"
                     },
-                    {
-                        "Age_Ranges_Years": [
-                            {
-                                "Max": 65,
-                                "Min": 15
-                            }
-                        ],
-                        "End_Year": 2065,
-                        "Num_Targeted_Females": [
-                            3510360
-                        ],
-                        "Num_Targeted_Males": [
-                            0
-                        ],
-                        "Property_Restrictions_Within_Node": [
-                            {
-                                "Risk": "HIGH"
-                            },
-                            {
-                                "Risk": "MEDIUM"
-                            }
-                        ],
-                        "Start_Year": 2023,
-                        "Target_Disease_State": [
-                            [
-                                "HIV_Negative",
-                                "Not_Have_Intervention"
-                            ]
-                        ],
-                        "Target_Disease_State_Has_Intervention_Name": "PrEP"
-                    }
+                    [
+                        {
+                            "Age_Ranges_Years": [
+                                {
+                                    "Max": 65,
+                                    "Min": 15
+                                }
+                            ],
+                            "End_Year": 2024,
+                            "Num_Targeted_Females": [
+                                125370
+                            ],
+                            "Num_Targeted_Males": [
+                                0
+                            ],
+                            "Property_Restrictions_Within_Node": [
+                                {
+                                    "VOICE6": "TRUE"
+                                }
+                            ],
+                            "Start_Year": 2023,
+                            "Target_Disease_State": [
+                                [
+                                    "HIV_Negative",
+                                    "Not_Have_Intervention"
+                                ]
+                            ],
+                            "Target_Disease_State_Has_Intervention_Name": "PrEP"
+                        }
+                    ],
+                    [
+                        {
+                            "Age_Ranges_Years": [
+                                {
+                                    "Max": 65,
+                                    "Min": 15
+                                }
+                            ],
+                            "End_Year": 2025,
+                            "Num_Targeted_Females": [
+                                167160
+                            ],
+                            "Num_Targeted_Males": [
+                                0
+                            ],
+                            "Property_Restrictions_Within_Node": [
+                                {
+                                    "VOICE6": "TRUE"
+                                }
+                            ],
+                            "Start_Year": 2024,
+                            "Target_Disease_State": [
+                                [
+                                    "HIV_Negative",
+                                    "Not_Have_Intervention"
+                                ]
+                            ],
+                            "Target_Disease_State_Has_Intervention_Name": "PrEP"
+                        }
+                    ],
+                    [
+                        {
+                            "Age_Ranges_Years": [
+                                {
+                                    "Max": 65,
+                                    "Min": 15
+                                }
+                            ],
+                            "End_Year": 2026,
+                            "Num_Targeted_Females": [
+                                208950
+                            ],
+                            "Num_Targeted_Males": [
+                                0
+                            ],
+                            "Property_Restrictions_Within_Node": [
+                                {
+                                    "VOICE6": "TRUE"
+                                }
+                            ],
+                            "Start_Year": 2025,
+                            "Target_Disease_State": [
+                                [
+                                    "HIV_Negative",
+                                    "Not_Have_Intervention"
+                                ]
+                            ],
+                            "Target_Disease_State_Has_Intervention_Name": "PrEP"
+                        }
+                    ],
+                    [
+                        {
+                            "Age_Ranges_Years": [
+                                {
+                                    "Max": 65,
+                                    "Min": 15
+                                }
+                            ],
+                            "End_Year": 2065,
+                            "Num_Targeted_Females": [
+                                9778860
+                            ],
+                            "Num_Targeted_Males": [
+                                0
+                            ],
+                            "Property_Restrictions_Within_Node": [
+                                {
+                                    "VOICE6": "TRUE"
+                                }
+                            ],
+                            "Start_Year": 2026,
+                            "Target_Disease_State": [
+                                [
+                                    "HIV_Negative",
+                                    "Not_Have_Intervention"
+                                ]
+                            ],
+                            "Target_Disease_State_Has_Intervention_Name": "PrEP"
+                        }
+                    ]
                 ],
                 "Intervention_Config": {
                     "Cost_To_Consumer": 1.0,
@@ -3059,10 +3147,7 @@
             },
             "Event_Name": "NChooser to implement specified number of PrEP uptake",
             "Nodeset_Config": {
-                "Node_List": [
-                    1
-                ],
-                "class": "NodeSetNodeList"
+                "class": "NodeSetAll"
             },
             "Start_Year": 2015,
             "class": "CampaignEvent",
