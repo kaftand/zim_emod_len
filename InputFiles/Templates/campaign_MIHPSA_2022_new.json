@@ -4727,7 +4727,267 @@
         "Start_Year__KP_DPP_Start_Year": "<-- MARKER",
         "class": "CampaignEventByYear",
         "END":"LA PrEP"
+    },
+    {
+        "BEGIN": "PrEP INTERVENTION",
+        "Event_Coordinator_Config": {
+            "End_Year": 2099,
+            "Intervention_Config": {
+                "class": "PropertyValueChanger",
+                "Target_Property_Key": "VOICE6",
+                "Target_Property_Value": "TRUE",
+                "Revert": 59.833333333333336
+            },
+            "Target_Age_Max": 25,
+            "Target_Age_Min": 15,
+            "Target_Demographic": "ExplicitAgeRangesAndGender",
+            "Target_Disease_State": "HIV_Negative",
+            "Target_Gender": "Female",
+            "Targeting_Config": {
+                "class": "TargetingLogic",
+                "Logic": [
+                    [
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 0,
+                            "IP_Key_Value": "VOICE6:TRUE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "NA",
+                            "Num_Partners": 0,
+                            "More_Or_Less": "MORE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "MARITAL",
+                            "Num_Partners": 1,
+                            "More_Or_Less": "LESS"
+                        },
+                        {
+                            "class": "HasRelationship",
+                            "Is_Equal_To": 1,
+                            "With_Partner_Who": {
+                                "class": "HasHadMultiplePartnersInLastNumMonths",
+                                "Is_Equal_To": 1,
+                                "Num_Months_Type": "THREE_MONTHS"
+                            }
+                        }
+                    ]
+                ]
+            },
+            "Demographic_Coverage": 1,
+            "Number_Repetitions": -1,
+            "Timesteps_Between_Repetitions": 2,
+            "Update_Period": 7.01923076923,
+            "class": "StandardInterventionDistributionEventCoordinator"
+        },
+        "Event_Coordinator_Config__KP_DPP_Event": "<-- MARKER",
+        "Event_Name": "DPP Reference Tracking",
+        "Nodeset_Config": {
+            "class": "NodeSetAll"
+        },
+        "Start_Year": 2010,
+        "Start_Year__KP_DPP_Start_Year": "<-- MARKER",
+        "class": "CampaignEventByYear"
+    },
+    {
+        "BEGIN": "PrEP INTERVENTION",
+        "Event_Coordinator_Config": {
+            "End_Year": 2099,
+            "Intervention_Config": {
+                "class": "PropertyValueChanger",
+                "Target_Property_Key": "VOICE6",
+                "Target_Property_Value": "TRUE",
+                "Revert": 59.833333333333336
+            },
+            "Target_Age_Max": 25,
+            "Target_Age_Min": 15,
+            "Target_Demographic": "ExplicitAgeRangesAndGender",
+            "Target_Disease_State": "HIV_Negative",
+            "Target_Gender": "Female",
+            "Targeting_Config": {
+                "class": "TargetingLogic",
+                "Logic": [
+                    [
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 0,
+                            "IP_Key_Value": "VOICE6:TRUE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "NA",
+                            "Num_Partners": 0,
+                            "More_Or_Less": "MORE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "MARITAL",
+                            "Num_Partners": 1,
+                            "More_Or_Less": "LESS"
+                        },
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 1,
+                            "IP_Key_Value": "Risk:MEDIUM"
+                        }
+                    ]
+                ]
+            },
+            "Demographic_Coverage": 1,
+            "Number_Repetitions": -1,
+            "Timesteps_Between_Repetitions": 2,
+            "Update_Period": 7.01923076923,
+            "class": "StandardInterventionDistributionEventCoordinator"
+        },
+        "Event_Coordinator_Config__KP_DPP_Event": "<-- MARKER",
+        "Event_Name": "DPP Reference Tracking",
+        "Nodeset_Config": {
+            "class": "NodeSetAll"
+        },
+        "Start_Year": 2010,
+        "Start_Year__KP_DPP_Start_Year": "<-- MARKER",
+        "class": "CampaignEventByYear"
+    },
+    {
+        "BEGIN": "PrEP INTERVENTION",
+        "Event_Coordinator_Config": {
+            "End_Year": 2099,
+            "Intervention_Config": {
+                "class": "PropertyValueChanger",
+                "Target_Property_Key": "VOICE6",
+                "Target_Property_Value": "TRUE",
+                "Revert": 59.833333333333336
+            },
+            "Target_Age_Max": 25,
+            "Target_Age_Min": 15,
+            "Target_Demographic": "ExplicitAgeRangesAndGender",
+            "Target_Disease_State": "HIV_Negative",
+            "Target_Gender": "Female",
+            "Targeting_Config": {
+                "class": "TargetingLogic",
+                "Logic": [
+                    [
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 0,
+                            "IP_Key_Value": "VOICE6:TRUE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "NA",
+                            "Num_Partners": 0,
+                            "More_Or_Less": "MORE"
+                        },
+                        {
+                            "class": "HasRelationship",
+                            "Is_Equal_To": 1,
+                            "With_Partner_Who": {
+                                "class": "HasHadMultiplePartnersInLastNumMonths",
+                                "Is_Equal_To": 1,
+                                "Num_Months_Type": "THREE_MONTHS"
+                            }
+                        },
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 1,
+                            "IP_Key_Value": "Risk:MEDIUM"
+                        }
+                    ]
+                ]
+            },
+            "Demographic_Coverage": 1,
+            "Number_Repetitions": -1,
+            "Timesteps_Between_Repetitions": 2,
+            "Update_Period": 7.01923076923,
+            "class": "StandardInterventionDistributionEventCoordinator"
+        },
+        "Event_Coordinator_Config__KP_DPP_Event": "<-- MARKER",
+        "Event_Name": "DPP Reference Tracking",
+        "Nodeset_Config": {
+            "class": "NodeSetAll"
+        },
+        "Start_Year": 2010,
+        "Start_Year__KP_DPP_Start_Year": "<-- MARKER",
+        "class": "CampaignEventByYear"
+    },
+    {
+        "BEGIN": "PrEP INTERVENTION",
+        "Event_Coordinator_Config": {
+            "End_Year": 2099,
+            "Intervention_Config": {
+                "class": "PropertyValueChanger",
+                "Target_Property_Key": "VOICE6",
+                "Target_Property_Value": "TRUE",
+                "Revert": 59.833333333333336
+            },
+            "Target_Age_Max": 50,
+            "Target_Age_Min": 15,
+            "Target_Demographic": "ExplicitAgeRangesAndGender",
+            "Target_Disease_State": "HIV_Negative",
+            "Target_Gender": "Female",
+            "Targeting_Config": {
+                "class": "TargetingLogic",
+                "Logic": [
+                    [
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 0,
+                            "IP_Key_Value": "VOICE6:TRUE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "NA",
+                            "Num_Partners": 0,
+                            "More_Or_Less": "MORE"
+                        },
+                        {
+                            "class": "HasMoreOrLessThanNumPartners",
+                            "Is_Equal_To": 1,
+                            "Of_Relationship_Type": "MARITAL",
+                            "Num_Partners": 1,
+                            "More_Or_Less": "LESS"
+                        },
+                        {
+                            "class": "HasRelationship",
+                            "Is_Equal_To": 1,
+                            "With_Partner_Who": {
+                                "class": "HasHadMultiplePartnersInLastNumMonths",
+                                "Is_Equal_To": 1,
+                                "Num_Months_Type": "THREE_MONTHS"
+                            }
+                        },
+                        {
+                            "class": "HasIP",
+                            "Is_Equal_To": 1,
+                            "IP_Key_Value": "Risk:MEDIUM"
+                        }
+                    ]
+                ]
+            },
+            "Demographic_Coverage": 1,
+            "Number_Repetitions": -1,
+            "Timesteps_Between_Repetitions": 2,
+            "Update_Period": 7.01923076923,
+            "class": "StandardInterventionDistributionEventCoordinator"
+        },
+        "Event_Coordinator_Config__KP_DPP_Event": "<-- MARKER",
+        "Event_Name": "DPP Reference Tracking",
+        "Nodeset_Config": {
+            "class": "NodeSetAll"
+        },
+        "Start_Year": 2010,
+        "Start_Year__KP_DPP_Start_Year": "<-- MARKER",
+        "class": "CampaignEventByYear"
     }
+
     ],
     "Use_Defaults": 1
 }

@@ -32,6 +32,13 @@
                     "Transitions": []
                 },
                 {
+                    "Comment": "VOICE6",
+                    "Property": "VOICE6",
+                    "Values": [ "TRUE", "FALSE" ],
+                    "Initial_Distribution": [ 0.0, 1.0],
+                    "Transitions": []
+                },
+                {
                     "Property": "CascadeState",
                     "Values": [
                         "None",
