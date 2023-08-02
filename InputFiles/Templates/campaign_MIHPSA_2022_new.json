@@ -2778,7 +2778,8 @@
             },
             "Start_Year": 2008,
             "class": "CampaignEvent"
-        },{
+        },
+        {
             "BEGIN": "PREP Background",
             "Event_Coordinator_Config": {
                 "Distributions": [
@@ -2999,7 +3000,6 @@
                         ],
                         "Target_Disease_State_Has_Intervention_Name": "PrEP"
                     },
-                    [
                         {
                             "Age_Ranges_Years": [
                                 {
@@ -3027,9 +3027,7 @@
                                 ]
                             ],
                             "Target_Disease_State_Has_Intervention_Name": "PrEP"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "Age_Ranges_Years": [
                                 {
@@ -3057,9 +3055,7 @@
                                 ]
                             ],
                             "Target_Disease_State_Has_Intervention_Name": "PrEP"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "Age_Ranges_Years": [
                                 {
@@ -3087,9 +3083,7 @@
                                 ]
                             ],
                             "Target_Disease_State_Has_Intervention_Name": "PrEP"
-                        }
-                    ],
-                    [
+                        },
                         {
                             "Age_Ranges_Years": [
                                 {
@@ -3118,7 +3112,6 @@
                             ],
                             "Target_Disease_State_Has_Intervention_Name": "PrEP"
                         }
-                    ]
                 ],
                 "Intervention_Config": {
                     "Cost_To_Consumer": 1.0,
